@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+.parent-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-options{
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.game-container{
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #777;
+  border-right: 2px solid #777;
+  padding: 6px;
+  
+}
+
+.status-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  margin-bottom: 6px;
+  border-top: 2px solid #777;
+  border-left: 2px solid #777;
+  border-bottom: 2px solid #fcfcfc;
+  border-right: 2px solid #fcfcfc;
+}
+
+#board-container{
+  background: #c0c0c0;
+  border-top: 2px solid #c0c0c0;
+  border-left: 2px solid #7b7b7b;
+  border-bottom: 2px solid #fcfcfc;
+  border-right: 2px solid #fcfcfc;
+}
+
+.row-container{
+  background-color: #bdbdbd;
+  flex-direction: row;
+  display: flex;
+  align-self: center;
+}
+
+.cell-container{
+  background-color: #bdbdbd;
+  height: 16px;
+  width: 16px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #7b7b7b;
+  border-right: 2px solid #7b7b7b;
+}
+
+.cell-open{
+  border-top: 1px solid #7b7b7b;
+  border-left: 1px solid #7b7b7b;
+  border-bottom: 2px solid #bdbdbd;
+  border-right: 2px solid #bdbdbd;
+  padding: 1px 0 0 1px;
+}
